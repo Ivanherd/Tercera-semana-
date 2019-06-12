@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        Ordenar texto por orden alfabetico ("Letra por letra")
+    </head>
+    <body>
+        <script>
+
+            // Declaramos la variable que va a recibir nuestro texto 
+            const  input = prompt();
+            var result = [];
+            let text = input.replace(/\s/g, 0);
+            //Luego vamos a hacer un for donde dividiremos letra por letra el texo
+            
+            for(var i = 0; i < input.length; i++){
+
+            
+               result[i] = text.substring(i, i + 1);
+              
+            }
+
+            console.log(result)
+           
+
+        </script>
+
+    </body>
+</html>
